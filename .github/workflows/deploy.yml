@@ -17,7 +17,7 @@ jobs:
       with:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         known_hosts: 'just-a-placeholder-so-we-can-skip'
-        if_key_exists: replace
+        if_key_exists: QpQfGhWHQ2fw7S1gMjyHMTOyJpi0sWfqbmQPOEHsY2g 
 
     - name: Deploy files via rsync
       run: |
